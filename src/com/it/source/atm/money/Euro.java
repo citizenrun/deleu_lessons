@@ -1,10 +1,10 @@
 package com.it.source.atm.money;
 
-public class Hryvnia extends Money {
-	int par[] = {1,2,5,10,20,50,100,200,500};
+public class Euro extends Money {
+	int par[] = {3,25,70,250,300,600};
 	int value = 0;
 	
-	public Hryvnia(int value) {
+	public Euro(int value) {
 		this.value = value;
 	}
 
